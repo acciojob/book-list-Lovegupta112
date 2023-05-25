@@ -1,1 +1,87 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    font-family:sans-serif;
+}
+.container{
+    width:95%;
+    /* border:1px solid red; */
+    margin:2rem auto;
+    padding:1rem;
+}
+.container #heading{
+    font-weight:200;
+    font-size:2.3rem;
+    /* border:2px solid black; */
+    text-align: center;
+}
+#heading span{
+    color:rgb(0, 105, 252);
+    font-weight:100;
+}
+.form-group{
+    width:100%;
+    margin:1rem 0;
+}
+.form-group section input{
+width:100%;
+line-height:2;
+margin:0.5rem 0;
+border:2px solid rgb(220, 212, 212);
+}
+.form-group form #submit{
+    background-color:rgb(0, 105, 252);
+    color:white;
+    font-size:0.7rem;
+    padding: 0.5rem;
+    margin:1rem 0;
+    border:none;
+    border-radius:5px;
+}
+form #submit:hover{
+    background-color:rgb(26, 117, 244);
+    cursor: pointer;
+}
+#submit:active{
+    box-shadow:2px 2px 5px 3px rgba(34, 118, 236, 0.341);
+cursor: pointer;
+}
+.table-section{
+    width:100%;
+}
+.table-section table{
+    width:100%;
+}
+.table-section table{
+    /* background-color: coral; */
+    /* border-spacing:0px; */
+    border-collapse:collapse;
+
+}
+table thead {
+    border-bottom:1px solid rgb(220, 212, 212);
+}
+table thead th{
+    text-align: justify;
+    padding:10px;
+}
+table tbody{
+    text-align:justify;
+    border-top:2px solid black;
+}
+table tbody tr:nth-child(2n-1){
+    background-color: rgb(233, 230, 230);
+}
+table tbody td {
+    padding:10px;
+}
+table tbody td .delete{
+    
+}
